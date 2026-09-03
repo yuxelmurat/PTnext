@@ -1,0 +1,98 @@
+{
+  "retrieved_on": "2026-09-03",
+  "source_repository": "https://github.com/footballcsv/cache.footballdata",
+  "upstream": "https://www.football-data.co.uk/turkeym.php",
+  "scope": "Temel sonuçlar; son iki tamamlanan sezon ve mevcut sezon bu kopyada yok. Tamlık ayrıca denetlenir.",
+  "files": [
+    {
+      "season": "2009-10",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2009-10/tr.1.csv",
+      "source_blob_sha": "406ed0713cb1a91938e765ad86d117bc040ef8a4",
+      "local_file": "2009-10.csv"
+    },
+    {
+      "season": "2010-11",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2010-11/tr.1.csv",
+      "source_blob_sha": "678d79f8431dafb70b2153fb058a9f0580a5f6cd",
+      "local_file": "2010-11.csv"
+    },
+    {
+      "season": "2011-12",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2011-12/tr.1.csv",
+      "source_blob_sha": "512742de65b3b96a41af1e6e7674f61b04c29d56",
+      "local_file": "2011-12.csv"
+    },
+    {
+      "season": "2012-13",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2012-13/tr.1.csv",
+      "source_blob_sha": "201bea91a3c2a0328a0148c86abd79c64274d4f6",
+      "local_file": "2012-13.csv"
+    },
+    {
+      "season": "2013-14",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2013-14/tr.1.csv",
+      "source_blob_sha": "8db19451cfc0ac69d78579c2786eac49885ff631",
+      "local_file": "2013-14.csv"
+    },
+    {
+      "season": "2014-15",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2014-15/tr.1.csv",
+      "source_blob_sha": "6d420fd1ac709de02a239cf75b7cbc6ac69e85c2",
+      "local_file": "2014-15.csv"
+    },
+    {
+      "season": "2015-16",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2015-16/tr.1.csv",
+      "source_blob_sha": "5e351550d527ed52c20f85d46b795ef4d13ecef2",
+      "local_file": "2015-16.csv"
+    },
+    {
+      "season": "2016-17",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2016-17/tr.1.csv",
+      "source_blob_sha": "0b04c1267b4903e3e4e5047b0b63ea704ad80ca6",
+      "local_file": "2016-17.csv"
+    },
+    {
+      "season": "2017-18",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2017-18/tr.1.csv",
+      "source_blob_sha": "6f46b6e100088078ebb9e0ad7db0bbc860b69743",
+      "local_file": "2017-18.csv"
+    },
+    {
+      "season": "2018-19",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2018-19/tr.1.csv",
+      "source_blob_sha": "9ced050995fb1af67d9b5f7b9ee23c414de49a3b",
+      "local_file": "2018-19.csv"
+    },
+    {
+      "season": "2019-20",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2019-20/tr.1.csv",
+      "source_blob_sha": "7f6fd98077cd5af47fa9e0f723a50ea6b67c0cfb",
+      "local_file": "2019-20.csv"
+    },
+    {
+      "season": "2020-21",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2020-21/tr.1.csv",
+      "source_blob_sha": "610e69ba3adddcde6ac7a32834e8f599d9221ef2",
+      "local_file": "2020-21.csv"
+    },
+    {
+      "season": "2021-22",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2021-22/tr.1.csv",
+      "source_blob_sha": "569340a69f277040ad903159741397722fc7031c",
+      "local_file": "2021-22.csv"
+    },
+    {
+      "season": "2022-23",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2022-23/tr.1.csv",
+      "source_blob_sha": "192e1fcf7f61cf432b7a48a0a269230bacd52819",
+      "local_file": "2022-23.csv"
+    },
+    {
+      "season": "2023-24",
+      "source_url": "https://github.com/footballcsv/cache.footballdata/blob/master/2023-24/tr.1.csv",
+      "source_blob_sha": "cb21dc0d69a64e4cffd365690d78e88c5f66bee2",
+      "local_file": "2023-24.csv"
+    }
+  ]
+}

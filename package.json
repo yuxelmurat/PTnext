@@ -1,0 +1,20 @@
+{
+  "name": "ptnext",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Süper Lig için açık veriye dayalı haftalık analiz ve puan tablosu tahmini",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "sync": "node scripts/sync-tff.mjs",
+    "sync:referees": "node scripts/sync-referees.mjs --history",
+    "sync:squads": "node scripts/sync-squads.mjs",
+    "review:squads": "node scripts/import-squad-review.mjs",
+    "check:schedule": "node scripts/check-schedule.mjs",
+    "update": "node scripts/update.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  }
+}

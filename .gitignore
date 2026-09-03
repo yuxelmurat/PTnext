@@ -1,0 +1,11 @@
+node_modules/
+*.tmp
+data/research/tff/*.html
+data/research/tff/*.source.json
+!data/research/tff/current.html
+!data/research/tff/current.source.json
+data/research/squads/*.html
+data/research/referees/*.html
+data/squad-news.json
+data/squad-review.next.json
+graphify-out/

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102e52">
+  <meta name="description" content="PTnext: Süper Lig'de gerçek puan tablosunu gelecek haftanın olasılıklarıyla karşılaştır. Maç senaryolarını dene, modelin geçmiş başarısını incele.">
+  <title>PTnext — Süper Lig'in bir hafta sonrası</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23102e52'/%3E%3Cpath d='M16 19h25L30 30h18L27 49l7-16H16z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#standings">Puan tablosuna geç</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="PTnext ana sayfa"><span class="brand-mark" aria-hidden="true">↗</span><span>PT<span class="brand-next">next</span><sup>BETA</sup></span></a>
+    <nav aria-label="Ana menü"><a href="#standings" class="nav-active">Puan tahmini</a><a href="#matches">Maç merkezi</a><a href="#team-profile">Takımım</a><a href="#validation">Model karnesi <span>↗</span></a></nav>
+    <div class="league-label"><span class="league-dot"></span>SÜPER LİG <b>2026 / 27</b></div>
+  </header>
+  <main>
+    <section class="intro">
+      <div><div class="eyebrow"><span class="status-dot"></span> VERİDEN OLASILIĞA <span class="eyebrow-line"></span> TÜRKİYE</div>
+        <h1>Puan tablosunun<br><span>bir hafta sonrası.</span></h1>
+        <p>Bugünün sıralaması. Gelecek haftanın ihtimalleri.<br>Maç sonuçlarını değiştir, ligin nasıl şekillendiğini gör.</p>
+      </div>
+      <div class="intro-aside"><div class="field-art" aria-hidden="true"><span class="pitch-line"></span><span class="pitch-circle"></span><span class="pitch-box"></span><i class="ball b1"></i><i class="ball b2"></i><i class="ball b3"></i><i class="ball b4"></i><span class="field-route">↗</span></div><div class="intro-data"><strong id="match-count">—</strong><span>maçlık hafıza</span><span class="intro-data-divider"></span><strong>10.000</strong><span>hafta senaryosu</span></div></div>
+    </section>
+    <div id="loading" class="loading" role="status">Maç verileri ve tahminler yükleniyor…</div>
+    <div id="dashboard" hidden>
+      <section class="week-bar" aria-label="Hafta seçimi">
+        <div class="week-heading"><span class="calendar-icon" aria-hidden="true">▦</span><div><span class="eyebrow">HAFTALIK GÖRÜNÜM</span><strong id="week-title"></strong></div></div>
+        <div class="week-controls"><span id="week-dates"></span><button id="prev-week" class="icon-button" aria-label="Önceki haftaya geç">←</button><label class="sr-only" for="week-select">Tahmin haftası</label><select id="week-select"></select><button id="next-week" class="icon-button" aria-label="Sonraki haftaya geç">→</button></div>
+      </section>
+      <div id="retrospective" class="notice" hidden>Geçmiş hafta canlandırması: Tahminler yalnızca hafta başlamadan bilinen sonuçlarla bugün hesaplandı; önceden yayımlanmış tahmin değildir.</div>
+      <div class="workspace-grid">
+        <section id="standings" class="panel standings-panel" aria-labelledby="table-title">
+          <div class="panel-heading"><div><div class="eyebrow">LİGİN GÖRÜNÜMÜ</div><h2 id="table-title">Gerçekten olasıya <span>↗</span></h2></div><div class="view-switch" role="group" aria-label="Tablo sıralaması"><button id="sort-current" aria-pressed="true">Mevcut sıra</button><button id="sort-predicted" aria-pressed="false">Tahmini sıra</button></div></div>
+          <div class="table-meta"><span id="table-subtitle"></span><span><i class="legend-dot"></i> PTnext tahmini</span></div>
+          <p class="standings-history-hint"><span aria-hidden="true">↳</span> Bir sıranın geçmişi için <b>sıra numarasına</b>, takımın geçmişi için <b>takım adına</b> tıkla.</p>
+          <div class="table-scroll"><table class="standings-table"><thead><tr><th scope="col">SIRA</th><th scope="col">TAKIM</th><th scope="col" title="Oynanan maç">O</th><th scope="col">PUAN</th><th scope="col" class="form-col">SON 3</th><th scope="col" class="forecast-start">SIRA <span>↗</span></th><th scope="col" title="Seçilen tahmini skorlarla hesaplanan tam puan">PUAN</th><th scope="col" class="range-col" title="Ayrı belirsizlik hesabı: simülasyonların yüzde 80'lik sıra aralığı">%80 ARALIK</th></tr></thead><tbody id="standings-body"></tbody></table></div>
+          <div class="table-footnote"><span class="info-icon">i</span><p>Tahmini tablo, maç kartlarındaki skorlarla hesaplanır: galibiyet 3, beraberlik 1, mağlubiyet 0 puan. Averaj da bu skorlardan gelir. %80 aralık, ayrı hesaplanan sıralama belirsizliğidir.</p></div>
+          <div class="scenario-status"><span id="scenario-status" aria-live="polite">Tüm olasılıklar hesaba katılıyor.</span><button id="reset-scenarios" disabled>Seçimleri sıfırla ↺</button></div>
+        </section>
+        <aside class="right-rail">
+          <section id="spotlight" class="spotlight" aria-labelledby="spotlight-title"></section>
+          <section class="panel movement-panel"><div class="eyebrow">TABLODA HAREKET</div><h3>Yukarıya kim bakıyor?</h3><div id="movers"></div><p class="small-note">Mevcut sırasını iyileştirme olasılığı.</p></section>
+          <div class="model-note"><span class="note-symbol">◎</span><div><strong>Verinin sınırını bil.</strong><p>Temel model maç sonuçlarından öğrenir. Kadro katmanı, kaynak ve test yeterliliğine göre devreye girer.</p><a href="#methodology">Model nasıl çalışıyor? ↗</a></div></div>
+        </aside>
+      </div>
+      <section id="matches" class="matches-section" aria-labelledby="matches-title"><div class="section-heading"><div><div class="eyebrow">SONUCU SEN DEĞİŞTİR</div><h2 id="matches-title">Bir maç, bütün tablo.</h2><p>Bir sonuç seç. Üstteki puan tablosu o koşula göre yeniden hesaplansın.</p></div><span class="section-tag" id="fixture-count"></span></div><div id="match-grid" class="match-grid"></div></section>
+      <section id="team-profile" class="insights-section" aria-labelledby="team-profile-title">
+        <div class="section-heading"><div><div class="eyebrow">BİR TAKIM, BİRÇOK HİKÂYE</div><h2 id="team-profile-title">Takımının izini sür.</h2><p>Bugünkü durum, yarının ihtimali ve geçmiş sezonların yolu.</p></div><span class="section-tag">PTnext · TAKIM SAYFASI</span></div>
+        <div class="insight-toolbar"><label for="profile-team">Takım seç <select id="profile-team"></select></label><button id="favorite-team" aria-pressed="false">☆ Takımım olarak kaydet</button><button id="share-scenario">Senaryo bağlantısını kopyala ↗</button></div>
+        <p id="insight-status" class="insight-status" role="status"></p><input id="share-link-fallback" class="share-link-fallback" aria-label="Paylaşılacak senaryo bağlantısı" readonly hidden>
+        <div class="insight-grid"><article id="profile-card" class="panel insight-card"></article><article id="journey-card" class="panel insight-card"></article></div>
+        <article id="critical-card" class="panel insight-card critical-card"></article>
+        <article id="squad-card" class="panel insight-card squad-card"></article>
+      </section>
+      <section class="insights-section" aria-label="Haftalık karne ve lig örüntüleri">
+        <div class="section-heading"><div><div class="eyebrow">SONUÇLARIN ANLATTIĞI</div><h2>Geçmişe dön, veriyi gör.</h2><p>Tahminleri sonuçlarla, lig hakkındaki gözlemleri kayıtlarla karşılaştır.</p></div></div>
+        <div class="insight-grid"><article id="weekly-report-card" class="panel insight-card"></article><article id="patterns-card" class="panel insight-card"></article></div>
+        <article id="europe-card" class="panel insight-card europe-card"></article>
+      </section>
+      <section id="validation" class="validation-section" aria-labelledby="validation-title"><div class="section-heading"><div><div class="eyebrow">TAHMİNİN DE KARNESİ VAR</div><h2 id="validation-title">Ölçmediğimiz başarıyı söylemeyiz.</h2><p id="validation-description"></p></div><span class="section-tag">GEÇMİŞ VERİYLE TEST</span></div>
+        <div id="validation-cards" class="validation-cards"></div>
+        <div class="validation-details"><div class="panel season-results"><h3>Sezon bazında sonuç</h3><table><thead><tr><th>Sezon</th><th>Maç</th><th>PTnext isabet</th><th>Basit model</th></tr></thead><tbody id="validation-seasons"></tbody></table><p id="validation-method" class="small-note"></p></div><article id="reliability-card" class="panel insight-card"></article></div>
+      </section>
+      <section id="referee-validation" class="panel referee-validation" aria-label="Hakem modelinin doğrulaması"></section>
+      <section id="methodology" class="methodology-section"><div><div class="eyebrow">AÇIK YÖNTEM, AÇIK SINIRLAR</div><h2>Tahminin arkasında ne var?</h2><p>Her takımın hücum ve savunma gücü geçmiş skorlarla güncellenir. Ev sahibi avantajıyla birlikte gol olasılıkları hesaplanır; haftanın maçları binlerce kez oynatılarak sıra dağılımı çıkarılır.</p><p>“Avrupa dönüşü kaybeder” veya “liderliği bırakmaz” gibi gözlemler bu sürümde kural değildir. Bu iddialar, uygun veri ve ayrı geçmiş dönem testleriyle sınanmalıdır.</p><details><summary>Modelin varsayımları ve eksikleri</summary><ul id="limitations"></ul></details></div><div class="source-panel"><h3>Veri defteri <span>↗</span></h3><div id="source-links"></div><p class="small-note" id="source-date"></p><details><summary>Sezon kapsamını göster</summary><div id="coverage-list"></div></details></div></section>
+    </div>
+  </main>
+  <footer><a class="brand" href="/">PT<span class="brand-next">next</span></a><p>Futbolun sonucu sahada. Olasılıkları burada.</p><span>İstatistiksel analiz · İlk sürüm</span></footer>
+  <dialog id="match-dialog" aria-labelledby="dialog-title"><button id="close-dialog" class="dialog-close" aria-label="Maç detayını kapat">×</button><div id="dialog-content"></div></dialog>
+  <dialog id="card-dialog" aria-label="Kartın paylaşım görünümü"><div class="capture-toolbar"><span>Ekran görüntüsü için paylaşım görünümü</span><button id="close-card-dialog" aria-label="Paylaşım görünümünü kapat">×</button></div><div id="capture-content"></div></dialog>
+</body>
+</html>

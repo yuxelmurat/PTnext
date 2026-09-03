@@ -1,0 +1,21 @@
+{
+  "retrieved_on": "2026-09-03",
+  "source": "https://github.com/xgabora/Club-Football-Match-Data-2000-2025/blob/main/data/Matches.csv",
+  "source_blob_sha": "881bec288002bd62a426ed79947dd95824403efc",
+  "upstream": [
+    "https://www.football-data.co.uk/",
+    "https://www.clubelo.com/"
+  ],
+  "selection": "Division=T1; MatchDate >= 2010-07-01. Kaynak sütunları ve değerleri korunmuştur; yalnızca satır seçimi yapılmıştır.",
+  "file": "super-lig-2010-2025.csv",
+  "row_count": 4896,
+  "source_licence": "MIT; kaynak repo lisansı saklandı. Üçüncü taraf veri hakları ayrıca değerlendirilmelidir.",
+  "limitations": [
+    "2024-25 sezonunda 342 eşleşmeden 314 kayıt var; 28 eşleşme eksik.",
+    "2025-26 ve 2026-27 verileri yok.",
+    "2011-12 normal sezonu içerir; sezon sonu play-off kapsamı yok.",
+    "Hafta numarası, kadro, sakatlık ve oyuncu bazında cezalar yok.",
+    "Şut, korner ve kart alanları 2017-18 öncesinde boş.",
+    "Hazır Elo, form ve C_* alanlarının hesaplanma zamanı/veri sızıntısı denetlenmedi; model girdisi olarak doğrulanmadı."
+  ]
+}

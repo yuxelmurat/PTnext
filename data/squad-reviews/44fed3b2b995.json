@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "teams": [
+    {
+      "team": "Galatasaray",
+      "matchIds": [
+        "317813"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3604",
+        "https://www.galatasaray.org/anasayfa",
+        "https://www.galatasaray.org/haber/futbol/acibadem-saglik-raporu/el-chadaille-bitshiabu-saglik-kontrollerinden-gecti/60880",
+        "https://www.galatasaray.org/haber/futbol/acibadem-saglik-raporu/deniz-gul-saglik-kontrollerinden-gecti/60870"
+      ],
+      "note": "Kulüp 1 Eylül tarihinde Deniz Gül için transfer sağlık kontrolü duyurdu. Yeni transferin bu maçtaki tescili ve rolü ayrıca doğrulanmalı; son maç kadrosu tam güncel kadro sayılmaz. Güncel eksik kontrolü tamamlanmadı."
+    },
+    {
+      "team": "Gençlerbirliği",
+      "matchIds": [
+        "317811"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3606",
+        "https://genclerbirligi.org.tr/",
+        "https://genclerbirligi.org.tr/haberler/kirmizi-karalarimiz-hazirliklarini-sabah-gerceklestirdigi-antrenmanla-surdurdu-02-eylul-2026"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Beşiktaş",
+      "matchIds": [
+        "317817"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3590"
+      ],
+      "note": "Resmî kaynak taraması tamamlanamadı; eksikler doğrulanmayı bekliyor."
+    },
+    {
+      "team": "Fenerbahçe",
+      "matchIds": [
+        "317817"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3592"
+      ],
+      "note": "Resmî kaynak taraması tamamlanamadı; eksikler doğrulanmayı bekliyor."
+    },
+    {
+      "team": "Amed SK",
+      "matchIds": [
+        "317812"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3678",
+        "https://www.amedspor.com.tr/",
+        "https://www.amedspor.com.tr/news/ali-turap-bulbul-amedsporda"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Kocaelispor",
+      "matchIds": [
+        "317818"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=132",
+        "https://www.kocaelispor.com.tr/"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Çaykur Rizespor",
+      "matchIds": [
+        "317814"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3631",
+        "https://www.caykurrizespor.org.tr/",
+        "https://www.caykurrizespor.org.tr/haber/recep-ucar-hafta-sonu-oynayacagimiz-gaziantep-fk-maci-hazirliklarini-basin-toplantisinda-degerlendirdi-6367"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Kasımpaşa",
+      "matchIds": [
+        "317812"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=39"
+      ],
+      "note": "Resmî kaynak taraması tamamlanamadı; eksikler doğrulanmayı bekliyor."
+    },
+    {
+      "team": "Başakşehir",
+      "matchIds": [
+        "317813"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3665"
+      ],
+      "note": "Resmî kaynak taraması tamamlanamadı; eksikler doğrulanmayı bekliyor."
+    },
+    {
+      "team": "Samsunspor",
+      "matchIds": [
+        "317818"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3597"
+      ],
+      "note": "Resmî kaynak taraması tamamlanamadı; eksikler doğrulanmayı bekliyor."
+    },
+    {
+      "team": "Trabzonspor",
+      "matchIds": [
+        "317811"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3596"
+      ],
+      "note": "Resmî kaynak taraması tamamlanamadı; eksikler doğrulanmayı bekliyor."
+    },
+    {
+      "team": "Alanyaspor",
+      "matchIds": [
+        "317814"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=51",
+        "https://www.alanyaspor.org.tr/",
+        "https://www.alanyaspor.org.tr/haberler/kategori/transfer-haberleri"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Gaziantep FK",
+      "matchIds": [
+        "317815"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3672",
+        "https://www.gaziantepfk.org/",
+        "https://www.gaziantepfk.org/haberler/antrenman-gunlugu-02-09-2026-carsamba"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Eyüpspor",
+      "matchIds": [
+        "317816"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3610"
+      ],
+      "note": "Resmî kaynak taraması tamamlanamadı; eksikler doğrulanmayı bekliyor."
+    },
+    {
+      "team": "Göztepe",
+      "matchIds": [
+        "317815"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3688",
+        "https://www.goztepe.org.tr/"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Çorum FK",
+      "matchIds": [
+        "317816"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3199",
+        "https://corumfk.com.tr/"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Erzurumspor",
+      "matchIds": [
+        "317819"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=4123",
+        "https://erzurumsporfk.org/",
+        "https://erzurumsporfk.org/category/transfer-haberleri/"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    },
+    {
+      "team": "Konyaspor",
+      "matchIds": [
+        "317819"
+      ],
+      "status": "incomplete",
+      "checkedAt": "2026-09-03T12:20:13.683Z",
+      "sources": [
+        "https://www.tff.org/Default.aspx?pageId=28&kulupId=3600",
+        "https://www.konyaspor.org.tr/",
+        "https://www.konyaspor.org.tr/haber/antrenman-gunlugu-2-eylul-carsamba-calismasi1718"
+      ],
+      "note": "Haber adayları toplandı; maç özelinde sakatlık, ceza ve muhtemel kadro doğrulaması henüz tamamlanmadı."
+    }
+  ],
+  "events": [],
+  "season": "2026-2027",
+  "importedAt": "2026-09-03T14:03:51.594Z"
+}
