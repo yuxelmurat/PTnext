@@ -30051,8 +30051,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317811",
-      "retrievedAt": "2026-09-03T19:00:07.755Z",
-      "sha256": "0c5b7978fa2d90bb02ae9f35b574f91dd045e8f2ada8ae8ef0ecfdd69eee36c8"
+      "retrievedAt": "2026-09-04T12:42:21.587Z",
+      "sha256": "b8412ef22340b6cc8cdb763bf1360ccfca90ca1b2ccc444a1c4966b1f85efc2d"
     },
     "317812": {
       "matchId": "317812",
@@ -30085,8 +30085,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317812",
-      "retrievedAt": "2026-09-03T19:00:08.097Z",
-      "sha256": "71366855c68f0ff6830c0298cde324a725b0e52a93d2934a3428f3de28b34c0e"
+      "retrievedAt": "2026-09-04T12:42:21.926Z",
+      "sha256": "834f6ed2529fd92b56592b6b4258db7ca674cd8851b2226c581e90fa1d38b632"
     },
     "317813": {
       "matchId": "317813",
@@ -30115,12 +30115,22 @@
           "id": "1623229",
           "name": "FATİH TOKAİL",
           "role": "Dördüncü Hakem"
+        },
+        {
+          "id": "2772646",
+          "name": "MANUEL SCHUTTENGRUBER",
+          "role": "VAR"
+        },
+        {
+          "id": "1144302",
+          "name": "ANIL USTA",
+          "role": "AVAR"
         }
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317813",
-      "retrievedAt": "2026-09-03T19:00:06.009Z",
-      "sha256": "16984005cefe017ecfa1995835aa480a6b40c75e23dd7d3788070cf0d2030723"
+      "retrievedAt": "2026-09-04T12:42:19.870Z",
+      "sha256": "7e58e94bd74eab85036938f34b24f332f21458bb684b0eb1e8e16322c54cc733"
     },
     "317814": {
       "matchId": "317814",
@@ -30153,8 +30163,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317814",
-      "retrievedAt": "2026-09-03T19:00:08.441Z",
-      "sha256": "c4085bf776c4e504b2000d609654d48b06cc3c74637e35db9954693fd08ec1c1"
+      "retrievedAt": "2026-09-04T12:42:22.278Z",
+      "sha256": "fda13ca0c9cd1228538c237462455a5476ca45318621232d95ac85c9df3b7106"
     },
     "317815": {
       "matchId": "317815",
@@ -30187,8 +30197,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317815",
-      "retrievedAt": "2026-09-03T19:00:08.786Z",
-      "sha256": "8567bc67e65d9089c5d793223ef703de820a2ad3ad725ca4ca846ec84dfdfaf5"
+      "retrievedAt": "2026-09-04T12:42:22.633Z",
+      "sha256": "b52c8846cd51dc815b5f9da3b279a36d3842d0d6ff0d19adc147257d7cce75e7"
     },
     "317816": {
       "matchId": "317816",
@@ -30214,15 +30224,15 @@
           "role": "2. Yardımcı Hakem"
         },
         {
-          "id": "1258717",
-          "name": "AYBERK DEMİRBAŞ",
+          "id": "876678",
+          "name": "DİRENÇ TONUSLUOĞLU",
           "role": "Dördüncü Hakem"
         }
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317816",
-      "retrievedAt": "2026-09-03T19:00:07.056Z",
-      "sha256": "3026cfa6429839ac267bc20c546c3c5931afde076e797e638bac94fbe425358f"
+      "retrievedAt": "2026-09-04T12:42:20.892Z",
+      "sha256": "8f26a8f4a4d5c92d83b240ed3d9e4bb0d84e3875deb03c3f3ad99c808e7bcc15"
     },
     "317817": {
       "matchId": "317817",
@@ -30255,8 +30265,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317817",
-      "retrievedAt": "2026-09-03T19:00:06.361Z",
-      "sha256": "600da961f2b510561498dbad353056b1aad0e1305bb48cc3da9cf8de3578570d"
+      "retrievedAt": "2026-09-04T12:42:20.212Z",
+      "sha256": "cd2762d3670e0c5c482002fa40276c57148bc501d1c4e908774e8d686322df81"
     },
     "317818": {
       "matchId": "317818",
@@ -30289,8 +30299,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317818",
-      "retrievedAt": "2026-09-03T19:00:07.414Z",
-      "sha256": "b5fc1cdb099dc8376ed98638b73b622cd45d9e610ed222f05d2a22bf245b8b6c"
+      "retrievedAt": "2026-09-04T12:42:21.241Z",
+      "sha256": "b4ffdcd170fe365d0a70574175adcd02c74ede4542481fabcb76ac4ea445f8ab"
     },
     "317819": {
       "matchId": "317819",
@@ -30323,9 +30333,9 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317819",
-      "retrievedAt": "2026-09-03T19:00:06.709Z",
-      "sha256": "ff67053fbefbad8dc280ab78bfcc53b4d5a06a834ebbbb2bdcda3b6416bcca26"
+      "retrievedAt": "2026-09-04T12:42:20.558Z",
+      "sha256": "7a911ce2974e2a77e9989a5b76bf44da57416c3c04240a4f5c19d143b35ffb91"
     }
   },
-  "updatedAt": "2026-09-03T19:00:08.786Z"
+  "updatedAt": "2026-09-04T12:42:22.634Z"
 }
