@@ -5,7 +5,7 @@ import { resolve, sep } from 'node:path';
 import { simulate, emptyTable, fromMeans } from '../public/model.js';
 import { calibrationSummary, seasonJourney, leadershipPattern, europeanSummary, criticalMatches, readSharedState, scenarioUrl } from '../public/insights-model.js';
 import { parseEuropeanMatches } from '../lib/europe.mjs';
-import { europeanCases, weeklyReports, compareReport } from '../lib/insights.mjs';
+import { europeanCases, weeklyReports, compareReport, currentSeasonHistory } from '../lib/insights.mjs';
 import { kickoff } from '../lib/cycle.mjs';
 
 const dashboard = JSON.parse(await readFile(process.env.PTNEXT_DASHBOARD || 'public/data/dashboard.json', 'utf8'));
@@ -132,6 +132,23 @@ test('Maç öncesi kayıt karneye sabit girer; geç veya tutarsız zaman damgas�
     assert.equal(await readFile(path, 'utf8'), before);
     await writeFile(path, JSON.stringify({ generatedAt: new Date(Math.min(...current.fixtures.filter(m => m.round === round).map(kickoff))).toISOString(), snapshot }));
     await assert.rejects(weeklyReports(root, current, [snapshot]), /maç öncesi zamanı/);
+  } finally {
+    if (!resolve(root).startsWith(resolve('test') + sep)) throw new Error('Test temizliği çalışma alanı dışında.');
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('Temiz dağıtım haftalık ham TFF arşivi yoksa yayımlanmış doğrulanmış çıktıyı korur', async () => {
+  const current = JSON.parse(await readFile(`data/normalized/${dashboard.season}.json`, 'utf8'));
+  const completed = dashboard.reports.find(report => report.completed);
+  assert.ok(completed);
+  const snapshot = dashboard.snapshots.find(item => item.round === completed.round);
+  const root = await mkdtemp(resolve('test/.clean-build-'));
+  try {
+    const reports = await weeklyReports(root, current, [snapshot], [completed]);
+    assert.deepEqual(reports, [completed]);
+    const journey = await currentSeasonHistory(root, current, dashboard.currentJourney);
+    assert.deepEqual(journey.weeks[completed.round], dashboard.currentJourney.weeks[completed.round]);
   } finally {
     if (!resolve(root).startsWith(resolve('test') + sep)) throw new Error('Test temizliği çalışma alanı dışında.');
     await rm(root, { recursive: true, force: true });

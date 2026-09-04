@@ -178,7 +178,7 @@ for (let round = Math.max(1, targetRound - 3); round <= targetRound; round++) {
 const coverage = [...Map.groupBy(matches, m => m.season)].map(([season, rows]) => ({ season, matches: rows.length, excluded: rows.filter(m => m.excluded).length,
   source: season >= '2024-2025' ? 'TFF' : 'GitHub / football-data', complete: season !== current.season }));
 const reports = await weeklyReports(root, current, snapshots, lastOutput?.reports || []);
-const currentJourney = await currentSeasonHistory(root, current);
+const currentJourney = await currentSeasonHistory(root, current, lastOutput?.currentJourney);
 const output = { generatedAt, sourceRetrievedAt: current.retrievedAt, season: current.season, currentRound: cycle.status === 'complete' ? targetRound : targetRound - 1, targetRound, status: cycle.status,
   modelVersion: MODEL_VERSION, teams: teams.map(teamInfo), snapshots, validation, coverage, standingsHistory,
   reports, currentJourney, europe,
