@@ -30051,8 +30051,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317811",
-      "retrievedAt": "2026-09-04T12:42:21.587Z",
-      "sha256": "b8412ef22340b6cc8cdb763bf1360ccfca90ca1b2ccc444a1c4966b1f85efc2d"
+      "retrievedAt": "2026-09-05T05:00:45.978Z",
+      "sha256": "3ec1048b002f15ad614864c0d46b6033dfb744a70a597e28868f21511f8eef60"
     },
     "317812": {
       "matchId": "317812",
@@ -30085,8 +30085,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317812",
-      "retrievedAt": "2026-09-04T12:42:21.926Z",
-      "sha256": "834f6ed2529fd92b56592b6b4258db7ca674cd8851b2226c581e90fa1d38b632"
+      "retrievedAt": "2026-09-05T05:00:46.351Z",
+      "sha256": "fb5be31090e555d9fcefc32f35c9b898f57ac46832175c59b34800b885df1fbd"
     },
     "317813": {
       "matchId": "317813",
@@ -30129,8 +30129,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317813",
-      "retrievedAt": "2026-09-04T12:42:19.870Z",
-      "sha256": "7e58e94bd74eab85036938f34b24f332f21458bb684b0eb1e8e16322c54cc733"
+      "retrievedAt": "2026-09-04T17:01:06.735Z",
+      "sha256": "a0cb9f61efa6cc813ba88eabfbfa8ba9fbae16f48be4917b06d2582f69290ac3"
     },
     "317814": {
       "matchId": "317814",
@@ -30159,12 +30159,22 @@
           "id": "1244682",
           "name": "BİRKAN ALTINDAŞ",
           "role": "Dördüncü Hakem"
+        },
+        {
+          "id": "20490",
+          "name": "ONUR ÖZÜTOPRAK",
+          "role": "VAR"
+        },
+        {
+          "id": "1140470",
+          "name": "SUAT GÜZ",
+          "role": "AVAR"
         }
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317814",
-      "retrievedAt": "2026-09-04T12:42:22.278Z",
-      "sha256": "fda13ca0c9cd1228538c237462455a5476ca45318621232d95ac85c9df3b7106"
+      "retrievedAt": "2026-09-07T18:01:54.272Z",
+      "sha256": "f2df8d5f70381060a18461bca9da533017fedebfb11bb93f632dbea70e4cb3c0"
     },
     "317815": {
       "matchId": "317815",
@@ -30193,12 +30203,22 @@
           "id": "804650",
           "name": "YUSUF ZİYA GÜNDÜZ",
           "role": "Dördüncü Hakem"
+        },
+        {
+          "id": "19972",
+          "name": "ÖZGÜR YANKAYA",
+          "role": "VAR"
+        },
+        {
+          "id": "20680",
+          "name": "İBRAHİM ÇAĞLAR UYARCAN",
+          "role": "AVAR"
         }
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317815",
-      "retrievedAt": "2026-09-04T12:42:22.633Z",
-      "sha256": "b52c8846cd51dc815b5f9da3b279a36d3842d0d6ff0d19adc147257d7cce75e7"
+      "retrievedAt": "2026-09-07T18:01:53.881Z",
+      "sha256": "b4667b425d4b6b438d690dcdb461307013a4474168de9da7fce864884cb0c468"
     },
     "317816": {
       "matchId": "317816",
@@ -30231,8 +30251,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317816",
-      "retrievedAt": "2026-09-04T12:42:20.892Z",
-      "sha256": "8f26a8f4a4d5c92d83b240ed3d9e4bb0d84e3875deb03c3f3ad99c808e7bcc15"
+      "retrievedAt": "2026-09-05T05:00:45.606Z",
+      "sha256": "36696487dbc84848d818908690128ccc3b10eca5d9f55f30b1c13005ab2f1693"
     },
     "317817": {
       "matchId": "317817",
@@ -30265,8 +30285,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317817",
-      "retrievedAt": "2026-09-04T12:42:20.212Z",
-      "sha256": "cd2762d3670e0c5c482002fa40276c57148bc501d1c4e908774e8d686322df81"
+      "retrievedAt": "2026-09-05T05:00:44.861Z",
+      "sha256": "5a3293aa1763e09122c8fc6a64ae6e818bab3a152d39c890788a9de7e2448265"
     },
     "317818": {
       "matchId": "317818",
@@ -30299,8 +30319,8 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317818",
-      "retrievedAt": "2026-09-04T12:42:21.241Z",
-      "sha256": "b4ffdcd170fe365d0a70574175adcd02c74ede4542481fabcb76ac4ea445f8ab"
+      "retrievedAt": "2026-09-05T05:00:45.233Z",
+      "sha256": "ae5de1f0dec5288a38240803df2771a7ef31578311b38278c6731f896a0e9f89"
     },
     "317819": {
       "matchId": "317819",
@@ -30333,9 +30353,90 @@
       ],
       "status": "assigned",
       "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317819",
-      "retrievedAt": "2026-09-04T12:42:20.558Z",
-      "sha256": "7a911ce2974e2a77e9989a5b76bf44da57416c3c04240a4f5c19d143b35ffb91"
+      "retrievedAt": "2026-09-05T05:00:44.481Z",
+      "sha256": "da02c779586b72279dcd0e8e6f76efd77527c8ecd3e1532a2654b3954b96b7b1"
+    },
+    "317820": {
+      "matchId": "317820",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317820",
+      "retrievedAt": "2026-09-07T21:33:53.159Z",
+      "sha256": "73aa242dddf697666036b6985cf2236250b5fed91947653ef01c07ee470f857a"
+    },
+    "317821": {
+      "matchId": "317821",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317821",
+      "retrievedAt": "2026-09-07T21:33:50.608Z",
+      "sha256": "20ac5e7f8952afc3030e1882bf9c44883e58022481e70de8ea94574e74a21544"
+    },
+    "317822": {
+      "matchId": "317822",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317822",
+      "retrievedAt": "2026-09-07T21:33:50.955Z",
+      "sha256": "82437ff0304b0e99b1609cfdcc70393fb86bb8ccb62ac184ca9348bcade9ac39"
+    },
+    "317823": {
+      "matchId": "317823",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317823",
+      "retrievedAt": "2026-09-07T21:33:52.473Z",
+      "sha256": "5c75afee8e309673593ee7eae654573f4b6c03b9324bb52702d4f7ee54e559d5"
+    },
+    "317824": {
+      "matchId": "317824",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317824",
+      "retrievedAt": "2026-09-07T21:33:52.119Z",
+      "sha256": "f0a933b6be67120b64e36684058b1ad436248ba1f91d0e824285db809280d121"
+    },
+    "317825": {
+      "matchId": "317825",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317825",
+      "retrievedAt": "2026-09-07T21:33:51.569Z",
+      "sha256": "f21c1c43ee0185501a4507e6cc67748278ea931a4a659d7650f323b8f546a82a"
+    },
+    "317826": {
+      "matchId": "317826",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317826",
+      "retrievedAt": "2026-09-07T21:33:52.818Z",
+      "sha256": "1fd1ffce263bf0b81e04f258b3192cad2c488521b182ed1e2d8d5e97e0b701c1"
+    },
+    "317827": {
+      "matchId": "317827",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317827",
+      "retrievedAt": "2026-09-07T21:33:49.468Z",
+      "sha256": "f934b027f31152e265f4a5ff3cdf8737516ef3e5afbc89907ac0117853fd0023"
+    },
+    "317828": {
+      "matchId": "317828",
+      "referee": null,
+      "crew": [],
+      "status": "not-listed",
+      "source": "https://www.tff.org/Default.aspx?pageId=29&macId=317828",
+      "retrievedAt": "2026-09-07T21:33:50.269Z",
+      "sha256": "94451e4c6dd838b5fc0ea1dd038af181a05f386abc0c71f31e195c2d3ad202aa"
     }
   },
-  "updatedAt": "2026-09-04T12:42:22.634Z"
+  "updatedAt": "2026-09-07T21:33:53.159Z"
 }

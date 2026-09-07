@@ -140,7 +140,7 @@ test('Maç öncesi kayıt karneye sabit girer; geç veya tutarsız zaman damgas�
 
 test('Temiz dağıtım haftalık ham TFF arşivi yoksa yayımlanmış doğrulanmış çıktıyı korur', async () => {
   const current = JSON.parse(await readFile(`data/normalized/${dashboard.season}.json`, 'utf8'));
-  const completed = dashboard.reports.find(report => report.completed);
+  const completed = dashboard.reports.find(report => report.completed && dashboard.snapshots.some(item => item.round === report.round));
   assert.ok(completed);
   const snapshot = dashboard.snapshots.find(item => item.round === completed.round);
   const root = await mkdtemp(resolve('test/.clean-build-'));
